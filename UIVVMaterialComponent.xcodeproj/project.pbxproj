@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172C913023ACD64C0037CC6A /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C911E23ACD64C0037CC6A /* UIButtonExtension.swift */; };
+		172C913123ACD64C0037CC6A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C911F23ACD64C0037CC6A /* UIView.swift */; };
+		172C913223ACD64C0037CC6A /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912023ACD64C0037CC6A /* UIImageViewExtension.swift */; };
+		172C913323ACD64C0037CC6A /* NSStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912123ACD64C0037CC6A /* NSStringExtension.swift */; };
+		172C913423ACD64C0037CC6A /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912223ACD64C0037CC6A /* CALayerExtension.swift */; };
+		172C913523ACD64C0037CC6A /* UIViewBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912323ACD64C0037CC6A /* UIViewBorder.swift */; };
+		172C913623ACD64C0037CC6A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912423ACD64C0037CC6A /* UIColor.swift */; };
+		172C913723ACD64C0037CC6A /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912523ACD64C0037CC6A /* UITextFieldExtension.swift */; };
+		172C913823ACD64C0037CC6A /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912623ACD64C0037CC6A /* UILabelExtension.swift */; };
+		172C913923ACD64C0037CC6A /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912723ACD64C0037CC6A /* UIViewControllerExtension.swift */; };
+		172C913A23ACD64C0037CC6A /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912823ACD64C0037CC6A /* UITableViewExtension.swift */; };
+		172C913B23ACD64C0037CC6A /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912923ACD64C0037CC6A /* ScrollView.swift */; };
+		172C913C23ACD64C0037CC6A /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912A23ACD64C0037CC6A /* UIImage.swift */; };
+		172C913D23ACD64C0037CC6A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912B23ACD64C0037CC6A /* TextView.swift */; };
+		172C913E23ACD64C0037CC6A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912C23ACD64C0037CC6A /* StringExtension.swift */; };
+		172C913F23ACD64C0037CC6A /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912D23ACD64C0037CC6A /* UIApplication.swift */; };
+		172C914023ACD64C0037CC6A /* UINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912E23ACD64C0037CC6A /* UINavigationBarExtension.swift */; };
+		172C914123ACD64C0037CC6A /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C912F23ACD64C0037CC6A /* UINavigationController.swift */; };
 		1738B70F239232070059AC79 /* UIVVMaterialSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738B70E239232070059AC79 /* UIVVMaterialSpinner.swift */; };
 		174AC5EC23914A3A0000C277 /* UIVVMaterialComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174AC5E223914A3A0000C277 /* UIVVMaterialComponent.framework */; };
 		174AC5F123914A3A0000C277 /* UIVVMaterialComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AC5F023914A3A0000C277 /* UIVVMaterialComponentTests.swift */; };
@@ -24,6 +42,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		172C911E23ACD64C0037CC6A /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		172C911F23ACD64C0037CC6A /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		172C912023ACD64C0037CC6A /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		172C912123ACD64C0037CC6A /* NSStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringExtension.swift; sourceTree = "<group>"; };
+		172C912223ACD64C0037CC6A /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		172C912323ACD64C0037CC6A /* UIViewBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBorder.swift; sourceTree = "<group>"; };
+		172C912423ACD64C0037CC6A /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		172C912523ACD64C0037CC6A /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		172C912623ACD64C0037CC6A /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		172C912723ACD64C0037CC6A /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		172C912823ACD64C0037CC6A /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		172C912923ACD64C0037CC6A /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		172C912A23ACD64C0037CC6A /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		172C912B23ACD64C0037CC6A /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		172C912C23ACD64C0037CC6A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		172C912D23ACD64C0037CC6A /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		172C912E23ACD64C0037CC6A /* UINavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift; sourceTree = "<group>"; };
+		172C912F23ACD64C0037CC6A /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		1738B70E239232070059AC79 /* UIVVMaterialSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVVMaterialSpinner.swift; sourceTree = "<group>"; };
 		174AC5E223914A3A0000C277 /* UIVVMaterialComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIVVMaterialComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		174AC5E523914A3A0000C277 /* UIVVMaterialComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIVVMaterialComponent.h; sourceTree = "<group>"; };
@@ -52,6 +88,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		172C911D23ACD64C0037CC6A /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				172C911E23ACD64C0037CC6A /* UIButtonExtension.swift */,
+				172C911F23ACD64C0037CC6A /* UIView.swift */,
+				172C912023ACD64C0037CC6A /* UIImageViewExtension.swift */,
+				172C912123ACD64C0037CC6A /* NSStringExtension.swift */,
+				172C912223ACD64C0037CC6A /* CALayerExtension.swift */,
+				172C912323ACD64C0037CC6A /* UIViewBorder.swift */,
+				172C912423ACD64C0037CC6A /* UIColor.swift */,
+				172C912523ACD64C0037CC6A /* UITextFieldExtension.swift */,
+				172C912623ACD64C0037CC6A /* UILabelExtension.swift */,
+				172C912723ACD64C0037CC6A /* UIViewControllerExtension.swift */,
+				172C912823ACD64C0037CC6A /* UITableViewExtension.swift */,
+				172C912923ACD64C0037CC6A /* ScrollView.swift */,
+				172C912A23ACD64C0037CC6A /* UIImage.swift */,
+				172C912B23ACD64C0037CC6A /* TextView.swift */,
+				172C912C23ACD64C0037CC6A /* StringExtension.swift */,
+				172C912D23ACD64C0037CC6A /* UIApplication.swift */,
+				172C912E23ACD64C0037CC6A /* UINavigationBarExtension.swift */,
+				172C912F23ACD64C0037CC6A /* UINavigationController.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		1738B70D239231F90059AC79 /* spinner */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +142,7 @@
 		174AC5E423914A3A0000C277 /* UIVVMaterialComponent */ = {
 			isa = PBXGroup;
 			children = (
+				172C911D23ACD64C0037CC6A /* extensions */,
 				174AC5FE2391501E0000C277 /* helper */,
 				174AC5FD2391501E0000C277 /* ui */,
 				174AC5FC2391501E0000C277 /* util */,
@@ -231,7 +293,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172C913523ACD64C0037CC6A /* UIViewBorder.swift in Sources */,
+				172C913723ACD64C0037CC6A /* UITextFieldExtension.swift in Sources */,
+				172C913823ACD64C0037CC6A /* UILabelExtension.swift in Sources */,
+				172C913A23ACD64C0037CC6A /* UITableViewExtension.swift in Sources */,
+				172C914123ACD64C0037CC6A /* UINavigationController.swift in Sources */,
+				172C913E23ACD64C0037CC6A /* StringExtension.swift in Sources */,
 				1738B70F239232070059AC79 /* UIVVMaterialSpinner.swift in Sources */,
+				172C913123ACD64C0037CC6A /* UIView.swift in Sources */,
+				172C913223ACD64C0037CC6A /* UIImageViewExtension.swift in Sources */,
+				172C913B23ACD64C0037CC6A /* ScrollView.swift in Sources */,
+				172C913423ACD64C0037CC6A /* CALayerExtension.swift in Sources */,
+				172C913D23ACD64C0037CC6A /* TextView.swift in Sources */,
+				172C913F23ACD64C0037CC6A /* UIApplication.swift in Sources */,
+				172C913623ACD64C0037CC6A /* UIColor.swift in Sources */,
+				172C913323ACD64C0037CC6A /* NSStringExtension.swift in Sources */,
+				172C913923ACD64C0037CC6A /* UIViewControllerExtension.swift in Sources */,
+				172C914023ACD64C0037CC6A /* UINavigationBarExtension.swift in Sources */,
+				172C913023ACD64C0037CC6A /* UIButtonExtension.swift in Sources */,
+				172C913C23ACD64C0037CC6A /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +459,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U2KQMSND7L;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -392,6 +473,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.appinventor.UIVVMaterialComponent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -406,6 +488,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U2KQMSND7L;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -419,6 +502,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.appinventor.UIVVMaterialComponent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
