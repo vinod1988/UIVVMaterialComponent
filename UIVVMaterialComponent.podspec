@@ -16,9 +16,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UIVVMaterialComponent"
-  spec.version      = "0.3.0"
+  spec.version      = "0.3.1"
   spec.summary      = "UIVVMaterialComponent for iOS."
-  spec.cocoapods_version = '>= 0.3.0'
+  spec.cocoapods_version = '>= 0.3.1'
   spec.swift_version = "4.2"
 
   # This description is used to generate tags and improve search results.
