@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import QuartzCore
 
-extension UINavigationController {
+public extension UINavigationController {
     
     /**
      It removes all view controllers from navigation controller then set the new root view controller and it pops.

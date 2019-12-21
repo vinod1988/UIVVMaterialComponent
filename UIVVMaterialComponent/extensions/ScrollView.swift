@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-extension UIScrollView {
+public extension UIScrollView {
     
     func scrollToTop() {
         let desiredOffset = CGPoint(x: 0, y: -self.contentInset.top)

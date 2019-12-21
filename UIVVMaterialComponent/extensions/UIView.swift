@@ -8,14 +8,14 @@
 
 import UIKit
 
-extension UINib {
+public extension UINib {
     func instantiate() -> Any? {
         return self.instantiate(withOwner: nil, options: nil).first
     }
 }
 
 
-extension UIView {
+public extension UIView {
     
     class func loadNib<T: UIView>(_ viewType: T.Type) -> T {
         let className = String.className(aClass: viewType)

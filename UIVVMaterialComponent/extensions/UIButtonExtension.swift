@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension  UIButton {
+public extension  UIButton {
     
     /// Makes the ``imageView`` appear just to the right of the ``titleLabel``.
     func alignImageRight() {

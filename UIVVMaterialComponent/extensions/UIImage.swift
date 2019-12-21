@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     func trim(trimRect :CGRect) -> UIImage {
         if CGRect(origin: CGPoint.zero, size: self.size).contains(trimRect) {
             if let imageRef = self.cgImage?.cropping(to: trimRect) {
@@ -25,23 +25,13 @@ extension UIImage {
         
         return image
     }
-}
-
-extension UIImageView {
     
-    public func imageFromUrl(urlString: String) {
-
-       let url = URL(string:urlString)
-       let task = URLSession.shared.dataTask(with: url!) { data, response, error in
-           guard let data = data, error == nil else { return }
-
-           DispatchQueue.main.async() {// execute on main thread
-               self.image = UIImage(data: data)
-           }
-       }
-       task.resume()
-        
+    static func localImage(_ name: String, template: Bool = false) -> UIImage {
+      var image = UIImage(named: name)!
+      if template {
+        image = image.withRenderingMode(.alwaysTemplate)
+      }
+      return image
     }
 }
-
 

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UINavigationBar {
+public extension UINavigationBar {
     
     class func hideNavigationLine() -> Void {
         

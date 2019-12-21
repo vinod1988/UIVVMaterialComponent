@@ -6,9 +6,10 @@
 //  Copyright © 2015 Vinod Vishwakarma. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-extension UIColor {
+public extension UIColor {
 
     
    
@@ -17,38 +18,26 @@ extension UIColor {
     }
     
     convenience init(hex: String, alpha: CGFloat) {
-        var hexWithoutSymbol = hex
-        if hexWithoutSymbol.hasPrefix("#") {
-            hexWithoutSymbol = hex.firstIndex(of: "#") as! String
-//            hexWithoutSymbol = hex[hex.startIndex] as! String
-        }
-        
-        let scanner = Scanner(string: hexWithoutSymbol)
-        var hexInt:UInt64 = 0x0
-        scanner.scanHexInt64(&hexInt)
-        
-        var r:UInt64!, g:UInt64!, b:UInt64!
-        switch (hexWithoutSymbol.length) {
-        case 3: // #RGB
-            r = ((hexInt >> 4) & 0xf0 | (hexInt >> 8) & 0x0f)
-            g = ((hexInt >> 0) & 0xf0 | (hexInt >> 4) & 0x0f)
-            b = ((hexInt << 4) & 0xf0 | hexInt & 0x0f)
-            break;
-        case 6: // #RRGGBB
-            r = (hexInt >> 16) & 0xff
-            g = (hexInt >> 8) & 0xff
-            b = hexInt & 0xff
-            break;
-        default:
-            // TODO:ERROR
-            break;
-        }
-        
-        self.init(
-            red: (CGFloat(r)/255),
-            green: (CGFloat(g)/255),
-            blue: (CGFloat(b)/255),
-            alpha:alpha)
+       let hexString: String = hex.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+         let scanner = Scanner(string: hexString)
+         
+         if (hexString.hasPrefix("#")) {
+           scanner.scanLocation = 1
+         }
+         
+         var color: UInt32 = 0
+         scanner.scanHexInt32(&color)
+         
+         let mask = 0x000000FF
+         let r = Int(color >> 16) & mask
+         let g = Int(color >> 8) & mask
+         let b = Int(color) & mask
+         
+         let red   = CGFloat(r) / 255.0
+         let green = CGFloat(g) / 255.0
+         let blue  = CGFloat(b) / 255.0
+         
+         self.init(red:red, green:green, blue:blue, alpha:alpha)
     }
     
     

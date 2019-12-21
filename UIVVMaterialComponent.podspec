@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -15,20 +15,19 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "UIVVMaterialComponent"
-  spec.version      = "0.3.1"
-  spec.summary      = "UIVVMaterialComponent for iOS."
-  spec.cocoapods_version = '>= 0.3.1'
-  spec.swift_version = "4.2"
+  s.name         = "UIVVMaterialComponent"
+  s.version      = "0.4"
+  s.summary      = "UIVVMaterialComponent for iOS."
+
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "The SDK is a completely customizable widget that can be used in any iOS app."
+  s.description  = "The SDK is a completely customizable widget that can be used in any iOS app."
 
-  spec.homepage     = "https://github.com/vinod1988/UIVVMaterialComponent"
+  s.homepage     = "https://github.com/vinod1988/UIVVMaterialComponent"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  s.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Vinod Vishwakarma" => "vish.vino@gmail.com" }
+  s.author             = { "Vinod Vishwakarma" => "vish.vino@gmail.com" }
   # Or just: spec.author    = "Vinod Vishwakarma"
   # spec.authors            = { "Vinod Vishwakarma" => "vish.vino@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/in_vvishwakarma"
@@ -65,13 +64,17 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "13.0"
+  # s.platform     = :ios, "13.0"
+  s.ios.deployment_target = '11.0'
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
+
+  s.cocoapods_version = '>= 1.4.0'
+  s.swift_version = "4.2"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +83,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/vinod1988/UIVVMaterialComponent.git", :tag => "v#{spec.version}" }
+  s.source       = { :git => "https://github.com/vinod1988/UIVVMaterialComponent.git", :tag => "v#{spec.version}" }
   # spec.source       = { :git => ".", :tag => "#{spec.version}" }
 
 
@@ -93,8 +96,8 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files  = "UIVVMaterialComponent"
-  spec.exclude_files = "Classes/Exclude"
+  s.source_files  = "UIVVMaterialComponent"
+  s.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

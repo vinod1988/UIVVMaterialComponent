@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIApplication {
+public extension UIApplication {
     
     static var loginAnimation: UIView.AnimationOptions = .transitionFlipFromRight
     static var logoutAnimation: UIView.AnimationOptions = .transitionCrossDissolve

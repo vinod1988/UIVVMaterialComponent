@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NSString {
+public extension NSString {
 
     
      func trim() -> NSString {

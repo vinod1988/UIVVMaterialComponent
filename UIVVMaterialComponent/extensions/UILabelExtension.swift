@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UILabel {
+public extension UILabel {
 
      func paddingLabel(rect: CGRect) {
 //        let newRect = CGRect.offsetBy(rect, 20, 0) // move text 10 points to the right
