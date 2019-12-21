@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIVVMaterialComponent"
-  s.version      = "0.4"
+  s.version      = "0.4.1"
   s.summary      = "UIVVMaterialComponent for iOS."
 
 
