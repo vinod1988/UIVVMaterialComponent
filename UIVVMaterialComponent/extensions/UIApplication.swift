@@ -15,7 +15,7 @@ public extension UIApplication {
     static var logoutAnimation: UIView.AnimationOptions = .transitionCrossDissolve
     
 
-    public static func setRootView(_ viewController: UIViewController,
+        static func setRootView(_ viewController: UIViewController,
                                    options: UIView.AnimationOptions = .transitionFlipFromRight,
                                    animated: Bool = true,
                                    duration: TimeInterval = 0.5,

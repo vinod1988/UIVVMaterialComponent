@@ -23,7 +23,7 @@ public extension UIViewController {
     //        self.slideMenuController()?.removeLeftGestures()
     //    }
     
-    open override func awakeFromNib() {
+    override func awakeFromNib() {
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
     
@@ -67,12 +67,12 @@ public extension UIViewController {
     
     
     // Screen width.
-    public var screenWidth: CGFloat {
+    var screenWidth: CGFloat {
         return UIScreen.main.bounds.width
     }
     
     // Screen height.
-    public var screenHeight: CGFloat {
+    var screenHeight: CGFloat {
         return UIScreen.main.bounds.height
     }
     
@@ -160,7 +160,7 @@ public extension UIViewController {
       
     
     //MARK:- Make UIAlertController compatible for iPad as well
-    public func addActionSheetForiPad(actionSheet: UIAlertController) {
+    func addActionSheetForiPad(actionSheet: UIAlertController) {
       if let popoverPresentationController = actionSheet.popoverPresentationController {
         popoverPresentationController.sourceView = self.view
         popoverPresentationController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)

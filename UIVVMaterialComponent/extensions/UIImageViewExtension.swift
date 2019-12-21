@@ -77,7 +77,7 @@ public extension UIImageView {
        }
     
     
-    public func imageFromUrl(urlString: String) {
+      func imageFromUrl(urlString: String) {
 
           let url = URL(string:urlString)
           let task = URLSession.shared.dataTask(with: url!) { data, response, error in

@@ -7,7 +7,8 @@
 //
 
 import XCTest
-@testable import UIVVMaterialComponent
+
+//@testable import UIVVMaterialComponent
 
 class UIVVMaterialComponentTests: XCTestCase {
 
