@@ -17,14 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "UIVVMaterialComponent"
   s.version      = "0.4.2"
-  s.summary      = "UIVVMaterialComponent for iOS."
-
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary      = "Beautiful Material Component for iOS."
   s.description  = "The SDK is a completely customizable widget that can be used in any iOS app."
 
   s.homepage     = "https://github.com/vinod1988/UIVVMaterialComponent"
@@ -55,7 +48,7 @@ Pod::Spec.new do |s|
   s.author             = { "Vinod Vishwakarma" => "vish.vino@gmail.com" }
   # Or just: spec.author    = "Vinod Vishwakarma"
   # spec.authors            = { "Vinod Vishwakarma" => "vish.vino@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/in_vvishwakarma"
+  s.social_media_url   = "https://twitter.com/in_vvishwakarma"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,8 +57,8 @@ Pod::Spec.new do |s|
   #
 
   # spec.platform     = :ios
-  s.platform     = :ios, "11.0"
-  # s.ios.deployment_target = '11.0'
+  # s.platform     = :ios, "11.0"
+  s.ios.deployment_target = '11.0'
 
   #  When using multiple platforms
   #s.ios.deployment_target = "5.0"
@@ -73,7 +66,7 @@ Pod::Spec.new do |s|
   #s.watchos.deployment_target = "2.0"
   #s.tvos.deployment_target = "9.0"
 
-  s.cocoapods_version = '>= 1.4.0'
+  #s.cocoapods_version = '>= 1.4.0'
   s.swift_version = "4.2"
 
 
@@ -83,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/vinod1988/UIVVMaterialComponent.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/vinod1988/UIVVMaterialComponent.git", :tag => s.version.to_s }
   # spec.source       = { :git => ".", :tag => "#{spec.version}" }
 
 
@@ -96,8 +89,8 @@ Pod::Spec.new do |s|
   #
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files  = "UIVVMaterialComponent"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "UIVVMaterialComponent/Classes/**/*"
+  # s.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
