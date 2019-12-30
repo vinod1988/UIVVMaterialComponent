@@ -14,7 +14,6 @@
 		17C0D8B323BA1179005486FE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D89E23BA1179005486FE /* UIView.swift */; };
 		17C0D8B423BA1179005486FE /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D89F23BA1179005486FE /* UIImageViewExtension.swift */; };
 		17C0D8B523BA1179005486FE /* NSStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D8A023BA1179005486FE /* NSStringExtension.swift */; };
-		17C0D8B623BA1179005486FE /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D8A123BA1179005486FE /* CALayerExtension.swift */; };
 		17C0D8B723BA1179005486FE /* UIViewBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D8A223BA1179005486FE /* UIViewBorder.swift */; };
 		17C0D8B823BA1179005486FE /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D8A323BA1179005486FE /* UIColor.swift */; };
 		17C0D8B923BA1179005486FE /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D8A423BA1179005486FE /* UITextFieldExtension.swift */; };
@@ -52,7 +51,6 @@
 		17C0D89E23BA1179005486FE /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		17C0D89F23BA1179005486FE /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		17C0D8A023BA1179005486FE /* NSStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringExtension.swift; sourceTree = "<group>"; };
-		17C0D8A123BA1179005486FE /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
 		17C0D8A223BA1179005486FE /* UIViewBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBorder.swift; sourceTree = "<group>"; };
 		17C0D8A323BA1179005486FE /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		17C0D8A423BA1179005486FE /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 				17C0D89E23BA1179005486FE /* UIView.swift */,
 				17C0D89F23BA1179005486FE /* UIImageViewExtension.swift */,
 				17C0D8A023BA1179005486FE /* NSStringExtension.swift */,
-				17C0D8A123BA1179005486FE /* CALayerExtension.swift */,
 				17C0D8A223BA1179005486FE /* UIViewBorder.swift */,
 				17C0D8A323BA1179005486FE /* UIColor.swift */,
 				17C0D8A423BA1179005486FE /* UITextFieldExtension.swift */,
@@ -294,7 +291,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				17C0D8C123BA1179005486FE /* UIApplication.swift in Sources */,
-				17C0D8B623BA1179005486FE /* CALayerExtension.swift in Sources */,
 				17C0D8C223BA1179005486FE /* UINavigationBarExtension.swift in Sources */,
 				17C0D8B923BA1179005486FE /* UITextFieldExtension.swift in Sources */,
 				17C0D8C023BA1179005486FE /* StringExtension.swift in Sources */,
