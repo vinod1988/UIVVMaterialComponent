@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
 public extension CALayer {
   func addShadow(color: UIColor, offset: CGSize, radius: CGFloat) {
     shadowColor = color.cgColor
@@ -16,7 +17,6 @@ public extension CALayer {
     shadowOpacity = 1
   }
   
-  @available(iOS 13.0, *)
   func addBottomBorder(color: UIColor = .separator, width: CGFloat = 1) {
     let borderLayer = CALayer()
     borderLayer.frame = CGRect(
