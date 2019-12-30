@@ -5,8 +5,8 @@ UIVVMaterialComponent
 [![Build Status](https://travis-ci.org/ishkawa/APIKit.svg?branch=master)](https://travis-ci.org/ishkawa/APIKit)
 [![codecov](https://codecov.io/gh/ishkawa/APIKit/branch/master/graph/badge.svg)](https://codecov.io/gh/ishkawa/APIKit)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Version](https://img.shields.io/cocoapods/v/APIKit.svg?style=flat)](http://cocoadocs.org/docsets/APIKit)
-[![Platform](https://img.shields.io/cocoapods/p/APIKit.svg?style=flat)](http://cocoadocs.org/docsets/APIKit)
+[![Version](https://img.shields.io/cocoapods/v/UIVVMaterialComponent.svg?style=flat)](http://cocoadocs.org/docsets/UIVVMaterialComponent)
+[![Platform](https://img.shields.io/cocoapods/p/UIVVMaterialComponent.svg?style=flat)](http://cocoadocs.org/docsets/UIVVMaterialComponent)
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 Material Components for iOS 
