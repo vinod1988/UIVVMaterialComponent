@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "cd20461d1f5e02bed9a4bc3911759bf8"
+build_time: [1577715377, 288111000]
+inputs:
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UIApplication.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UINavigationBarExtension.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UITextFieldExtension.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/StringExtension.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/TextView.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UIColor.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UIView.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/ScrollView.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UIButtonExtension.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UIImageViewExtension.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UIViewBorder.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UILabelExtension.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UINavigationController.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/UIImage.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift": [9223372036, 854775807]
+  "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/UIVVMaterialComponent/Classes/extensions/NSStringExtension.swift": [9223372036, 854775807]

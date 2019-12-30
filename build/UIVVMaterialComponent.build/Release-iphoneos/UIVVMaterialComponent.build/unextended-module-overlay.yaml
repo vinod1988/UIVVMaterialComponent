@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/build/Release-iphoneos/UIVVMaterialComponent.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/build/UIVVMaterialComponent.build/Release-iphoneos/UIVVMaterialComponent.build/unextended-module.modulemap",
+    }]
+  }]
+}

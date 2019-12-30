@@ -1,0 +1,11 @@
+framework module UIVVMaterialComponent {
+  umbrella header "UIVVMaterialComponent.h"
+
+  export *
+  module * { export * }
+}
+
+module UIVVMaterialComponent.Swift {
+    header "UIVVMaterialComponent-Swift.h"
+    requires objc
+}

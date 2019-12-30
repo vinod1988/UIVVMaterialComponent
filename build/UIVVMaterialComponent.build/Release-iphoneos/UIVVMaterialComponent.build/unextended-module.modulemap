@@ -1,0 +1,10 @@
+framework module UIVVMaterialComponent {
+  umbrella header "UIVVMaterialComponent.h"
+
+  export *
+  module * { export * }
+}
+
+module UIVVMaterialComponent.__Swift {
+    exclude header "UIVVMaterialComponent-Swift.h"
+}
