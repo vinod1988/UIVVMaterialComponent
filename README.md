@@ -12,7 +12,7 @@ UIVVMaterialComponent
 Material Components for iOS 
 
 ```swift
-      First import it like below
+      First import UIVVMaterialComponent in your swift file
       
       import UIVVMaterialComponent
       
