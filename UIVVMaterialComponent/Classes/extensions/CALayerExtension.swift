@@ -16,6 +16,7 @@ public extension CALayer {
     shadowOpacity = 1
   }
   
+  @available(iOS 13.0, *)
   func addBottomBorder(color: UIColor = .separator, width: CGFloat = 1) {
     let borderLayer = CALayer()
     borderLayer.frame = CGRect(
@@ -26,5 +27,6 @@ public extension CALayer {
     borderLayer.backgroundColor = color.cgColor
     addSublayer(borderLayer)
   }
+    
 }
 

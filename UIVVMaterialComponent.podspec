@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.source_files  = "UIVVMaterialComponent/Classes/**/*"
-  # s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "UIVVMaterialComponent/UIVVMaterialComponent/*.plist"
 
   # spec.public_header_files = "Classes/**/*.h"
 
