@@ -48,7 +48,6 @@ Note: CocoaPods 1.4.0 is required to install UIVVMaterialComponent.
 ## Documentation
 
 - [Getting started](Documentation/GettingStarted.md)
-- [Defining Request Protocol for Web Service](Documentation/DefiningRequestProtocolForWebService.md)
-- [Convenience Parameters and Actual Parameters](Documentation/ConvenienceParametersAndActualParameters.md)
+
 
 
