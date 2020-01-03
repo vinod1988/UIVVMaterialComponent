@@ -47,7 +47,7 @@ Note: CocoaPods 1.4.0 is required to install UIVVMaterialComponent.
 
 ## Documentation
 
-- [Getting started](Documentation/GettingStarted.md)
+- [Getting started](https://htmlpreview.github.io/?https://github.com/vinod1988/UIVVMaterialComponent/blob/master/docs/index.html)
 
 
 
