@@ -1,6 +1,6 @@
 //
 //  UILabelExtension.swift
-//  Indus
+//  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 04/02/17.
 //  Copyright © 2017 http://runtime-solutions.com. All rights reserved.

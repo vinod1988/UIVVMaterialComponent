@@ -1,6 +1,6 @@
 //
 //  UIImageViewExtension.swift
-//  Indus
+//  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 16/06/16.
 //  Copyright © 2016 http://runtime-solutions.com. All rights reserved.

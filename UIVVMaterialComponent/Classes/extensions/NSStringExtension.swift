@@ -1,6 +1,6 @@
 //
 //  NSStringExtension.swift
-//  OnlyOnRent
+//  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 27/11/15.
 //  Copyright © 2015 Vinod Vishwakarma. All rights reserved.

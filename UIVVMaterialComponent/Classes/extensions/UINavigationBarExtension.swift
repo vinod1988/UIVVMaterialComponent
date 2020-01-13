@@ -1,6 +1,6 @@
 //
 //  UINavigationBarExtension.swift
-//  KANDAGARA
+//  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 15/06/16.
 //  Copyright © 2016 http://appinventor.co.in. All rights reserved.
@@ -114,4 +114,11 @@ extension UINavigationController {
             self.navigationBar.layoutIfNeeded()
         }
     }
+    
+    func makeTransparentNav() -> Void {
+        self.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.isTranslucent = true
+    }
+    
 }

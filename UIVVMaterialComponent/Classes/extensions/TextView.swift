@@ -1,6 +1,6 @@
 //
 //  TextView.swift
-//  H2OPharmarcy
+//  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 28/10/18.
 //  Copyright © 2018 http://www.aigen.tech  Aigen Tech. All rights reserved.

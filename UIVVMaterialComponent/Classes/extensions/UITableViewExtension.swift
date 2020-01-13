@@ -1,6 +1,6 @@
 //
 //  UITableViewExtension.swift
-//  NoticeBoard
+//  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 14/01/18.
 //  Copyright © 2018 http://www.aigen.tech  Aigen Tech. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  UIViewControllerExtension.swift
-//  Indus
+//  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 06/06/16.
 //  Copyright © 2016 http://runtime-solutions.com. All rights reserved.

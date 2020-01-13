@@ -1,6 +1,6 @@
 //
 //  Localizable.swift
-//  FRATS
+//  UIVVMaterialComponent
 //
 //  Created by Vinod VIshwakarma on 21/12/2019.
 //  Copyright © 2019 Aigen Tech http://www.aigen.tech. All rights reserved.

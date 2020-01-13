@@ -1,6 +1,6 @@
 //
 //  ScrollView.swift
-//  H2OPharmarcy
+//  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 30/08/18.
 //  Copyright © 2018 http://www.aigen.tech  Aigen Tech. All rights reserved.

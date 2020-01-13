@@ -1,6 +1,6 @@
 //
 //  UIApplication.swift
-//  SYPX
+//  UIVVMaterialComponent
 //
 //  Created by Vinod VIshwakarma on 20/11/2019.
 //  Copyright © 2019 http://www.aigen.tech  Aigen Tech. All rights reserved.
