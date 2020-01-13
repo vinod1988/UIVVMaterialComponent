@@ -3,7 +3,7 @@
 //  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 16/06/16.
-//  Copyright © 2016 http://runtime-solutions.com. All rights reserved.
+//  Copyright © 2016 Appinventor Inc http://appinventor.co.in. All rights reserved.
 //
 
 import Foundation

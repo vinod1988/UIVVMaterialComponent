@@ -3,7 +3,7 @@
 //  UIVVMaterialComponent
 //
 //  Created by Vinod VIshwakarma on 21/12/2019.
-//  Copyright © 2019 Aigen Tech http://www.aigen.tech. All rights reserved.
+//  Copyright © 2019 Appinventor Inc http://appinventor.co.in. All rights reserved.
 //
 
 import Foundation

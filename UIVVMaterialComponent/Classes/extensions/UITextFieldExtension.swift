@@ -3,7 +3,7 @@
 //  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 05/08/18.
-//  Copyright © 2018 http://www.aigen.tech  Aigen Tech. All rights reserved.
+//  Copyright © 2018 Appinventor Inc http://appinventor.co.in. All rights reserved.
 //
 
 import UIKit

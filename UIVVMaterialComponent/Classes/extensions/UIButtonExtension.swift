@@ -3,7 +3,7 @@
 //  UIVVMaterialComponent
 //
 //  Created by Vinod Vishwakarma on 18/10/15.
-//  Copyright © 2015 Vinod Vishwakarma. All rights reserved.
+//  Copyright © 2015 Appinventor Inc http://appinventor.co.in.. All rights reserved.
 //
 
 import UIKit
