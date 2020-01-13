@@ -38,4 +38,35 @@ public extension UINavigationController {
         transition.type =  type
         self.view.layer.add(transition, forKey: nil)
     }
+    
+    func backToViewController(viewController: Swift.AnyClass) {
+        
+        for element in viewControllers as Array {
+            if element.isKind(of: viewController) {
+                self.popToViewController(element, animated: true)
+                break
+            }
+        }
+    }
+    
+    func removeBorderAndShadow(status:Bool) -> Void {
+        if status {
+            self.navigationBar.setBackgroundImage(UIImage(), for:.default)
+            self.navigationBar.shadowImage = UIImage()
+            self.navigationBar.layoutIfNeeded()
+            
+        } else {
+            self.navigationBar.setBackgroundImage(nil, for:.default)
+            self.navigationBar.shadowImage = nil
+            self.navigationBar.layoutIfNeeded()
+        }
+    }
+    
+    func makeTransparentNav() -> Void {
+        self.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.isTranslucent = true
+    }
+    
+    
 }
