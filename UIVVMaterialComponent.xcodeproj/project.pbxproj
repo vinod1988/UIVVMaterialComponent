@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172C367023CC745300CB1603 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C366F23CC745200CB1603 /* Localizable.swift */; };
 		174AC5EC23914A3A0000C277 /* UIVVMaterialComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174AC5E223914A3A0000C277 /* UIVVMaterialComponent.framework */; };
 		174AC5F123914A3A0000C277 /* UIVVMaterialComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AC5F023914A3A0000C277 /* UIVVMaterialComponentTests.swift */; };
 		174AC5F323914A3A0000C277 /* UIVVMaterialComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 174AC5E523914A3A0000C277 /* UIVVMaterialComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		172C366F23CC745200CB1603 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		174AC5E223914A3A0000C277 /* UIVVMaterialComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIVVMaterialComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		174AC5E523914A3A0000C277 /* UIVVMaterialComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIVVMaterialComponent.h; sourceTree = "<group>"; };
 		174AC5E623914A3A0000C277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		17C0D89C23BA1179005486FE /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				172C366F23CC745200CB1603 /* Localizable.swift */,
 				17C0D89D23BA1179005486FE /* UIButtonExtension.swift */,
 				17C0D89E23BA1179005486FE /* UIView.swift */,
 				17C0D89F23BA1179005486FE /* UIImageViewExtension.swift */,
@@ -303,6 +306,7 @@
 				17C0D8B223BA1179005486FE /* UIButtonExtension.swift in Sources */,
 				17C0D8B423BA1179005486FE /* UIImageViewExtension.swift in Sources */,
 				17C0D8B723BA1179005486FE /* UIViewBorder.swift in Sources */,
+				172C367023CC745300CB1603 /* Localizable.swift in Sources */,
 				17C0D8BA23BA1179005486FE /* UILabelExtension.swift in Sources */,
 				17C0D8C323BA1179005486FE /* UINavigationController.swift in Sources */,
 				17C0D8BE23BA1179005486FE /* UIImage.swift in Sources */,
