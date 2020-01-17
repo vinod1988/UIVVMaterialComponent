@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import var CommonCrypto.CC_MD5_DIGEST_LENGTH
+import func CommonCrypto.CC_MD5
+import typealias CommonCrypto.CC_LONG
 
 public extension String {
     
@@ -102,17 +105,49 @@ public extension String {
     // which decimal separator it will accept.
     func isNumeric() -> Bool{
         let scanner = Scanner(string: self)
-      
-      // A newly-created scanner has no locale by default.
-      // We'll set our scanner's locale to the user's locale
-      // so that it recognizes the decimal separator that
-      // the user expects (for example, in North America,
-      // "." is the decimal separator, while in many parts
-      // of Europe, "," is used).
+        
+        // A newly-created scanner has no locale by default.
+        // We'll set our scanner's locale to the user's locale
+        // so that it recognizes the decimal separator that
+        // the user expects (for example, in North America,
+        // "." is the decimal separator, while in many parts
+        // of Europe, "," is used).
         scanner.locale = NSLocale.current
-      
+        
         return scanner.scanDecimal(nil) && scanner.isAtEnd
     }
+    
+    
+    private func MD5(string: String) -> Data {
+        
+        let length = Int(CC_MD5_DIGEST_LENGTH)
+        let messageData = string.data(using:.utf8)!
+        var digestData = Data(count: length)
+        
+        _ = digestData.withUnsafeMutableBytes { digestBytes -> UInt8 in
+            messageData.withUnsafeBytes { messageBytes -> UInt8 in
+                if let messageBytesBaseAddress = messageBytes.baseAddress, let digestBytesBlindMemory = digestBytes.bindMemory(to: UInt8.self).baseAddress {
+                    let messageLength = CC_LONG(messageData.count)
+                    CC_MD5(messageBytesBaseAddress, messageLength, digestBytesBlindMemory)
+                }
+                return 0
+            }
+        }
+        return digestData
+    }
+    
+    func md5(data:String) -> String {
+        let md5Data = MD5(string:data)
+        let md5Hex =  md5Data.map { String(format: "%02hhx", $0) }.joined()
+        return md5Hex
+    }
+    
+    func md5Base64(data:String) -> String {
+        let md5Data = MD5(string:data)
+        let md5Base64 = md5Data.base64EncodedString()
+        return md5Base64
+    }
+    
     
     
 }

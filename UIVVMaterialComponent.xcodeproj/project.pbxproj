@@ -11,6 +11,8 @@
 		174AC5EC23914A3A0000C277 /* UIVVMaterialComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174AC5E223914A3A0000C277 /* UIVVMaterialComponent.framework */; };
 		174AC5F123914A3A0000C277 /* UIVVMaterialComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AC5F023914A3A0000C277 /* UIVVMaterialComponentTests.swift */; };
 		174AC5F323914A3A0000C277 /* UIVVMaterialComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 174AC5E523914A3A0000C277 /* UIVVMaterialComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		175ECE3323D1E2BC000F758D /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175ECE3223D1E2BC000F758D /* DeviceModel.swift */; };
+		175ECE3523D1E2F4000F758D /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175ECE3423D1E2F4000F758D /* UIDeviceExtension.swift */; };
 		17C0D8B223BA1179005486FE /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D89D23BA1179005486FE /* UIButtonExtension.swift */; };
 		17C0D8B323BA1179005486FE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D89E23BA1179005486FE /* UIView.swift */; };
 		17C0D8B423BA1179005486FE /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D89F23BA1179005486FE /* UIImageViewExtension.swift */; };
@@ -49,6 +51,8 @@
 		174AC5EB23914A3A0000C277 /* UIVVMaterialComponentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIVVMaterialComponentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174AC5F023914A3A0000C277 /* UIVVMaterialComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVVMaterialComponentTests.swift; sourceTree = "<group>"; };
 		174AC5F223914A3A0000C277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175ECE3223D1E2BC000F758D /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		175ECE3423D1E2F4000F758D /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		17C0D89D23BA1179005486FE /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		17C0D89E23BA1179005486FE /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		17C0D89F23BA1179005486FE /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
@@ -126,6 +130,14 @@
 			path = UIVVMaterialComponentTests;
 			sourceTree = "<group>";
 		};
+		175ECE2F23D1E296000F758D /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				175ECE3223D1E2BC000F758D /* DeviceModel.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
 		17C0D89A23BA0EAE005486FE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +148,7 @@
 		17C0D89B23BA0EAE005486FE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				175ECE2F23D1E296000F758D /* enums */,
 				17C0D89C23BA1179005486FE /* extensions */,
 				17C0D8AF23BA1179005486FE /* ui */,
 			);
@@ -163,6 +176,7 @@
 				17C0D8AC23BA1179005486FE /* UIApplication.swift */,
 				17C0D8AD23BA1179005486FE /* UINavigationBarExtension.swift */,
 				17C0D8AE23BA1179005486FE /* UINavigationController.swift */,
+				175ECE3423D1E2F4000F758D /* UIDeviceExtension.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -306,10 +320,12 @@
 				17C0D8B223BA1179005486FE /* UIButtonExtension.swift in Sources */,
 				17C0D8B423BA1179005486FE /* UIImageViewExtension.swift in Sources */,
 				17C0D8B723BA1179005486FE /* UIViewBorder.swift in Sources */,
+				175ECE3523D1E2F4000F758D /* UIDeviceExtension.swift in Sources */,
 				172C367023CC745300CB1603 /* Localizable.swift in Sources */,
 				17C0D8BA23BA1179005486FE /* UILabelExtension.swift in Sources */,
 				17C0D8C323BA1179005486FE /* UINavigationController.swift in Sources */,
 				17C0D8BE23BA1179005486FE /* UIImage.swift in Sources */,
+				175ECE3323D1E2BC000F758D /* DeviceModel.swift in Sources */,
 				17C0D8C423BA1179005486FE /* UIVVMaterialSpinner.swift in Sources */,
 				17C0D8B523BA1179005486FE /* NSStringExtension.swift in Sources */,
 			);
