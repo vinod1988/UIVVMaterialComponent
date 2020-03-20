@@ -25,7 +25,7 @@ public extension UIDevice {
             }
         }
         
-        var modelMap : [String: DeviceModel] = [
+        let modelMap : [String: DeviceModel] = [
             
             //Simulator
             "i386"      : .simulator,

@@ -472,6 +472,7 @@ public class VVAppUtility {
          } catch {
              print(error)
          }
+        return Data.init()
      }
     
         

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIVVMaterialComponent"
-  s.version      = "0.7"
+  s.version      = "0.7.1"
   s.summary      = "Beautiful Material Component for iOS."
   s.description  = "The SDK is a completely customizable widget that can be used in any iOS app."
 

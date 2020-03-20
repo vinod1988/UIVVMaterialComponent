@@ -45,7 +45,7 @@ public extension UIView {
     static func instantiate(autolayout: Bool = true) -> Self {
         // generic helper function
         func instantiateUsingNib<T: UIView>(autolayout: Bool) -> T {
-            let view = self.nib.instantiate(withOwner: self) as! T
+            let view = self.nib.instantiate(withOwner: self).first as! T
             view.translatesAutoresizingMaskIntoConstraints = !autolayout
             return view
         }
