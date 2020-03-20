@@ -52,4 +52,39 @@ public extension UILabel {
         return attributedString
     }
     
+    
+    // Left side image with text
+    func setLeftImgWithText(image: UIImage, width:CGFloat, height:CGFloat, with text: String) {
+      let attachment = NSTextAttachment()
+      attachment.image = image
+      attachment.bounds = CGRect(x: 0, y: 0, width: width, height: height)
+      let attachmentStr = NSAttributedString(attachment: attachment)
+
+      let mutableAttributedString = NSMutableAttributedString()
+      mutableAttributedString.append(attachmentStr)
+
+        let textString = NSAttributedString(string: text)
+      mutableAttributedString.append(textString)
+
+      self.attributedText = mutableAttributedString
+    
+    }
+    
+    func setRightImgWithText(image: UIImage, width:CGFloat, height:CGFloat, with text: String) {
+      let attachment = NSTextAttachment()
+      attachment.image = image
+      attachment.bounds = CGRect(x: 0, y: 0, width: width, height: height)
+      let attachmentStr = NSAttributedString(attachment: attachment)
+
+      let mutableAttributedString = NSMutableAttributedString()
+
+        let textString = NSAttributedString(string: text)
+      mutableAttributedString.append(textString)
+      mutableAttributedString.append(attachmentStr)
+
+      self.attributedText = mutableAttributedString
+    
+    }
+    
+    
 }

@@ -73,3 +73,5 @@ public enum DeviceModel : String {
     AppleTV_4K         = "Apple TV 4K",
     unrecognized       = "?unrecognized?"
 }
+
+

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1712CC3B23E2F84D002096D0 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1712CC3A23E2F84D002096D0 /* UIDevice.swift */; };
 		172C367023CC745300CB1603 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172C366F23CC745200CB1603 /* Localizable.swift */; };
 		174AC5EC23914A3A0000C277 /* UIVVMaterialComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174AC5E223914A3A0000C277 /* UIVVMaterialComponent.framework */; };
 		174AC5F123914A3A0000C277 /* UIVVMaterialComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AC5F023914A3A0000C277 /* UIVVMaterialComponentTests.swift */; };
@@ -31,6 +32,7 @@
 		17C0D8C223BA1179005486FE /* UINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D8AD23BA1179005486FE /* UINavigationBarExtension.swift */; };
 		17C0D8C323BA1179005486FE /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D8AE23BA1179005486FE /* UINavigationController.swift */; };
 		17C0D8C423BA1179005486FE /* UIVVMaterialSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C0D8B123BA1179005486FE /* UIVVMaterialSpinner.swift */; };
+		17DFF4EC23E422B3005189CC /* VVAppUitility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DFF4EB23E422B3005189CC /* VVAppUitility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1712CC3A23E2F84D002096D0 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		172C366F23CC745200CB1603 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		174AC5E223914A3A0000C277 /* UIVVMaterialComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIVVMaterialComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		174AC5E523914A3A0000C277 /* UIVVMaterialComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIVVMaterialComponent.h; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		17C0D8AD23BA1179005486FE /* UINavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift; sourceTree = "<group>"; };
 		17C0D8AE23BA1179005486FE /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		17C0D8B123BA1179005486FE /* UIVVMaterialSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVVMaterialSpinner.swift; sourceTree = "<group>"; };
+		17DFF4EB23E422B3005189CC /* VVAppUitility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VVAppUitility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 		17C0D89B23BA0EAE005486FE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				17DFF4EA23E42298005189CC /* utility */,
 				175ECE2F23D1E296000F758D /* enums */,
 				17C0D89C23BA1179005486FE /* extensions */,
 				17C0D8AF23BA1179005486FE /* ui */,
@@ -177,6 +182,7 @@
 				17C0D8AD23BA1179005486FE /* UINavigationBarExtension.swift */,
 				17C0D8AE23BA1179005486FE /* UINavigationController.swift */,
 				175ECE3423D1E2F4000F758D /* UIDeviceExtension.swift */,
+				1712CC3A23E2F84D002096D0 /* UIDevice.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -195,6 +201,14 @@
 				17C0D8B123BA1179005486FE /* UIVVMaterialSpinner.swift */,
 			);
 			path = spinner;
+			sourceTree = "<group>";
+		};
+		17DFF4EA23E42298005189CC /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				17DFF4EB23E422B3005189CC /* VVAppUitility.swift */,
+			);
+			path = utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,11 +321,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DFF4EC23E422B3005189CC /* VVAppUitility.swift in Sources */,
 				17C0D8C123BA1179005486FE /* UIApplication.swift in Sources */,
 				17C0D8C223BA1179005486FE /* UINavigationBarExtension.swift in Sources */,
 				17C0D8B923BA1179005486FE /* UITextFieldExtension.swift in Sources */,
 				17C0D8C023BA1179005486FE /* StringExtension.swift in Sources */,
 				17C0D8BB23BA1179005486FE /* UIViewControllerExtension.swift in Sources */,
+				1712CC3B23E2F84D002096D0 /* UIDevice.swift in Sources */,
 				17C0D8BF23BA1179005486FE /* TextView.swift in Sources */,
 				17C0D8B823BA1179005486FE /* UIColor.swift in Sources */,
 				17C0D8B323BA1179005486FE /* UIView.swift in Sources */,

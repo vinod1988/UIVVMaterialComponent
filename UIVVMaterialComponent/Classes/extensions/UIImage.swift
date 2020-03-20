@@ -9,6 +9,7 @@
 import UIKit
 
 public extension UIImage {
+    
     func trim(trimRect :CGRect) -> UIImage {
         if CGRect(origin: CGPoint.zero, size: self.size).contains(trimRect) {
             if let imageRef = self.cgImage?.cropping(to: trimRect) {
@@ -33,5 +34,14 @@ public extension UIImage {
       }
       return image
     }
+    
+    func tinted(with color: UIColor) -> UIImage? {
+           UIGraphicsBeginImageContextWithOptions(size, false, scale)
+           defer { UIGraphicsEndImageContext() }
+           color.set()
+           withRenderingMode(.alwaysTemplate)
+               .draw(in: CGRect(origin: .zero, size: size))
+           return UIGraphicsGetImageFromCurrentImageContext()
+       }
 }
 

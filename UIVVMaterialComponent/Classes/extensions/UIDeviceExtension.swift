@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 // #-#-#-#-#-#-#-#-#-#-#-#-#
 // MARK: UIDevice extensions
@@ -14,7 +15,7 @@ import Foundation
 
 public extension UIDevice {
     
-    var type: DeviceModel {
+    var deviceType: DeviceModel {
         
         var systemInfo = utsname()
         uname(&systemInfo)

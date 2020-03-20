@@ -77,18 +77,27 @@ public extension UIImageView {
        }
     
     
-      func imageFromUrl(urlString: String) {
+      func imageFromUrl(urlString: String?) {
+        if urlString != nil {
+            let url = URL(string:urlString!)
+            if url != nil {
+                let task = URLSession.shared.dataTask(with: url!) { data, response, error in
+                    guard let data = data, error == nil else { return }
 
-          let url = URL(string:urlString)
-          let task = URLSession.shared.dataTask(with: url!) { data, response, error in
-              guard let data = data, error == nil else { return }
-
-              DispatchQueue.main.async() {// execute on main thread
-                  self.image = UIImage(data: data)
-              }
-          }
-          task.resume()
-           
-       }
+                    DispatchQueue.main.async() {// execute on main thread
+                        self.image = UIImage(data: data)
+                    }
+                }
+                task.resume()
+            }
+        }
+    }
+    
+    func imageColor(color: UIColor) {
+          let templateImage = self.image?.withRenderingMode(.alwaysTemplate)
+          self.image = templateImage
+          self.tintColor = color
+      }
+      
     
 }
