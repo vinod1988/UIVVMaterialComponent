@@ -125,6 +125,16 @@ public extension UIDevice {
         return ipAddress
     }
     
+    /*
+     Use case:
+     UIDevice().getDeviceType() this will return a string of device model
+    
+     */
+    func getDeviceType() -> String {
+        let deviceType = UIDevice().deviceType.rawValue.trim()
+        let type = deviceType.replacingOccurrences(of: " ", with: "")
+        return type
+    }
     
     
     
