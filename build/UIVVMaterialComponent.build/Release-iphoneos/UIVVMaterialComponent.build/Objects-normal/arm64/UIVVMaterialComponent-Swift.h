@@ -206,6 +206,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@interface UIBarItem (SWIFT_EXTENSION(UIVVMaterialComponent))
+@property (nonatomic, copy) NSString * _Nullable xibLocKey;
+@end
+
+
+
+
+@interface UIButton (SWIFT_EXTENSION(UIVVMaterialComponent))
+@property (nonatomic, copy) NSString * _Nullable xibLocKey;
+@end
 
 
 
@@ -220,6 +230,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@interface UILabel (SWIFT_EXTENSION(UIVVMaterialComponent))
+@property (nonatomic, copy) NSString * _Nullable xibLocKey;
+@end
 
 
 
@@ -228,6 +241,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@interface UINavigationItem (SWIFT_EXTENSION(UIVVMaterialComponent))
+@property (nonatomic, copy) NSString * _Nullable xibLocKey;
+@end
+
+
+
+
+
+
+@interface UISegmentedControl (SWIFT_EXTENSION(UIVVMaterialComponent))
+@property (nonatomic, copy) NSString * _Nullable xibLocKeys;
+@end
+
+
+
+
+@interface UITextField (SWIFT_EXTENSION(UIVVMaterialComponent))
+@property (nonatomic, copy) NSString * _Nullable xibPlaceholderLocKey;
+@end
 
 
 @interface UITextField (SWIFT_EXTENSION(UIVVMaterialComponent))

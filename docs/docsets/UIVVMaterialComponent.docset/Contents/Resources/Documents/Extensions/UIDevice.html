@@ -33,6 +33,9 @@
               <li class="nav-group-task">
                 <a href="../Classes/UIVVMaterialSpinner.html">UIVVMaterialSpinner</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VVAppUtility.html">VVAppUtility</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -78,6 +81,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIDevice.html">UIDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIDevice/DeviceType.html">– DeviceType</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Extensions/UIImage.html">UIImage</a>
@@ -149,6 +155,12 @@
         <section>
           <section class="section">
             <h1>UIDevice</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">UIDevice</span></code></pre>
+
+                </div>
+              </div>
             
           </section>
           <section class="section task-group-section">
@@ -157,9 +169,74 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:21UIVVMaterialComponent4typeAA11DeviceModelOvp"></a>
-                    <a name="//apple_ref/swift/Property/type" class="dashAnchor"></a>
-                    <a class="token" href="#/s:21UIVVMaterialComponent4typeAA11DeviceModelOvp">type</a>
+                    <a name="/s:So8UIDeviceC21UIVVMaterialComponentE8hasNotchSbvp"></a>
+                    <a name="//apple_ref/swift/Property/hasNotch" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8UIDeviceC21UIVVMaterialComponentE8hasNotchSbvp">hasNotch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+<ul>
+<li><a href="https://medium.com/@cafielo/how-to-detect-notch-screen-in-swift-56271827625d">https://medium.com/@cafielo/how-to-detect-notch-screen-in-swift-56271827625d</a></li>
+</ul>
+
+<p>Use case -
+if UIDevice.current.hasNotch {
+print(&ldquo;has notch&rdquo;)
+} else {
+print(&ldquo;Don&rsquo;t have notch&rdquo;)
+}</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">hasNotch</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8UIDeviceC21UIVVMaterialComponentE10DeviceTypeO"></a>
+                    <a name="//apple_ref/swift/Enum/DeviceType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8UIDeviceC21UIVVMaterialComponentE10DeviceTypeO">DeviceType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Extensions/UIDevice/DeviceType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">DeviceType</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8UIDeviceC21UIVVMaterialComponentE13hasHomeButtonSbvp"></a>
+                    <a name="//apple_ref/swift/Property/hasHomeButton" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8UIDeviceC21UIVVMaterialComponentE13hasHomeButtonSbvp">hasHomeButton</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -174,7 +251,128 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/DeviceModel.html">DeviceModel</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">hasHomeButton</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8UIDeviceC21UIVVMaterialComponentE4typeAbCE10DeviceTypeOvp"></a>
+                    <a name="//apple_ref/swift/Property/type" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8UIDeviceC21UIVVMaterialComponentE4typeAbCE10DeviceTypeOvp">type</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Extensions/UIDevice/DeviceType.html">DeviceType</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8UIDeviceC21UIVVMaterialComponentE9ipAddressSSSgyF"></a>
+                    <a name="//apple_ref/swift/Method/ipAddress()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8UIDeviceC21UIVVMaterialComponentE9ipAddressSSSgyF">ipAddress()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">ipAddress</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8UIDeviceC21UIVVMaterialComponentE13getDeviceTypeSSyF"></a>
+                    <a name="//apple_ref/swift/Method/getDeviceType()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8UIDeviceC21UIVVMaterialComponentE13getDeviceTypeSSyF">getDeviceType()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getDeviceType</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UIDevice%20extensions"></a>
+                <a name="//apple_ref/swift/Section/UIDevice extensions" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/UIDevice%20extensions"></a>
+                  <h3 class="section-name"><p>UIDevice extensions</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So8UIDeviceC21UIVVMaterialComponentE10deviceTypeAC11DeviceModelOvp"></a>
+                    <a name="//apple_ref/swift/Property/deviceType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So8UIDeviceC21UIVVMaterialComponentE10deviceTypeAC11DeviceModelOvp">deviceType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">deviceType</span><span class="p">:</span> <span class="kt"><a href="../Enums/DeviceModel.html">DeviceModel</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -186,7 +384,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://github.com/vinod1988/UIVVMaterialComponent" target="_blank" rel="external">Vinod Vishwakarma</a>. All rights reserved. (Last updated: 2020-01-17)</p>
+          <p>&copy; 2020 <a class="link" href="https://github.com/vinod1988/UIVVMaterialComponent" target="_blank" rel="external">Vinod Vishwakarma</a>. All rights reserved. (Last updated: 2020-04-06)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
