@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIVVMaterialComponent"
-  s.version      = "0.8"
+  s.version      = "0.9"
   s.summary      = "Beautiful Material Component for iOS Swift/SwiftUI."
-  s.description  = "The SDK is a completely customizable widget that can be used in any iOS app. This SDK now suporting SwiftUI"
+  s.description  = "The SDK is a completely customizable widget that can be used in any iOS app. This SDK now suporting SwiftUI. Install SDK using SPM(Swift Package Manager)"
 
   s.homepage     = "https://github.com/vinod1988/UIVVMaterialComponent"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"

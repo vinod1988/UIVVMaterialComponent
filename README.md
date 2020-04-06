@@ -7,7 +7,7 @@ UIVVMaterialComponent
 [![Platform](https://img.shields.io/cocoapods/p/UIVVMaterialComponent.svg?style=flat)](http://cocoadocs.org/docsets/UIVVMaterialComponent)
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
-Material Components for iOS 
+Material Components for iOS Swift/SwiftUI
 
 ```swift
       First import UIVVMaterialComponent
@@ -32,8 +32,10 @@ Material Components for iOS
 ## Requirements
 
 - Swift 4.2 or later
-- iOS 11.0 or later
-
+- iOS 13.0 or later
+- SwiftUI 5.1 or later
+- ## SwiftUI iOS13.0 or later
+- ## SPM (Swift Package Manager)
 
 ## Installation
 
