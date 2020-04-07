@@ -12,7 +12,7 @@ let package = Package(
                       products: [.library(name: "UIVVMaterialComponent",
                                           targets: ["UIVVMaterialComponent"])],
                       targets: [.target(name: "UIVVMaterialComponent",
-                                        path: "Classes"),
+                                        path: "UIVVMaterialComponent/Classes"),
                                 .testTarget(name: "UIVVMaterialComponentTests",
                                             dependencies: ["UIVVMaterialComponent"],
                                             path: "Tests")],
