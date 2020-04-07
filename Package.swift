@@ -17,4 +17,3 @@ let package = Package(
                                             dependencies: ["UIVVMaterialComponent"],
                                             path: "Tests")],
                       swiftLanguageVersions: [.v5])
-)
