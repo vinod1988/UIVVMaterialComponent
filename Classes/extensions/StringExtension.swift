@@ -148,6 +148,18 @@ public extension String {
         return md5Base64
     }
     
+    /*
+     Use this function to make the text as sentance.
+     
+     */
+    func sentanceWords() -> String {
+        if self.count > 0 {
+            return self.prefix(1).capitalized + dropFirst()
+            
+        } else {
+            return self
+        }
+    }
     
     
 }
