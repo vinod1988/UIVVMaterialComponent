@@ -703,7 +703,7 @@ public class VVAppUtility {
     }
     
     
-    func stringify(json: Any) -> String {
+    /*func stringify(json: Any) -> String {
         let options: JSONSerialization.WritingOptions = []
         //        if prettyPrinted {
         //            options = JSONSerialization.WritingOptions.prettyPrinted
@@ -719,21 +719,21 @@ public class VVAppUtility {
         }
         
         return ""
-    }
+    }*/
     
-    func getDictionary(stringRes:String) -> NSDictionary {
-        if let data = stringRes.data(using: String.Encoding.utf8) {
-            do {
-                let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? NSDictionary
-                return json ?? NSDictionary()
-            } catch {
-                print("unable to conver the string")
-            }
-        }
-        
-        return NSDictionary()
-        
-    }
+//    func getDictionary(stringRes:String) -> NSDictionary {
+//        if let data = stringRes.data(using: String.Encoding.utf8) {
+//            do {
+//                let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? NSDictionary
+//                return json ?? NSDictionary()
+//            } catch {
+//                print("unable to conver the string")
+//            }
+//        }
+//
+//        return NSDictionary()
+//
+//    }
     
     
     func convertDictToData(json:NSDictionary) -> Data? {
@@ -864,6 +864,35 @@ public class VVAppUtility {
         return enumCount
     }
     
-    
+    /**
+                  let data = AppHelper.shared().formatPoints(num: totalPoints )
+                  
+      //            return String(format: "%d %@", self.points, pt)
+                  return String(format: "%@ %@", data, pt)
+
+     */
+    func formatPoints(num: Double) ->String {
+        let thousandNum = num/1000
+        let millionNum = num/1000000
+        if num >= 1000 && num <= 1000000 {
+            if(floor(thousandNum) == thousandNum) {
+                return("\(Int(thousandNum))K")
+            }
+            return("\(thousandNum.roundToPlaces(places: 1))K")
+        }
+        if num > 1000000 {
+            if(floor(millionNum) == millionNum){
+                return("\(Int(thousandNum))K")
+            }
+            return ("\(millionNum.roundToPlaces(places: 1))M")
+        }
+        else{
+            if(floor(num) == num){
+                return ("\(Int(num))")
+            }
+            return ("\(num)")
+        }
+        
+    }
     
 }
