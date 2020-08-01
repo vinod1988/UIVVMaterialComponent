@@ -161,5 +161,35 @@ public extension String {
         }
     }
     
+    /*
+      To check the new line and empty space in string.
+    
+    */
+    var isBlank : Bool {
+        let s = self
+        let cset = NSCharacterSet.newlines.inverted
+        let r = s.rangeOfCharacter(from:cset)
+        let ok = s.isEmpty || r == nil
+        return ok
+    }
+    
+    
+    /**
+     Then, whenever you want to put HTML text in a UITextView use:
+     textView.attributedText = htmlText.htmlToAttributedString
+     */
+    var htmlToAttributedString: NSAttributedString? {
+        guard let data = data(using: .utf8) else { return NSAttributedString() }
+        do {
+            return try NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html, .characterEncoding:String.Encoding.utf8.rawValue], documentAttributes: nil)
+        } catch {
+            return NSAttributedString()
+        }
+    }
+    var htmlToString: String {
+        return htmlToAttributedString?.string ?? ""
+    }
+    
+    
     
 }

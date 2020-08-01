@@ -10,6 +10,8 @@
 		174AC5EC23914A3A0000C277 /* UIVVMaterialComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174AC5E223914A3A0000C277 /* UIVVMaterialComponent.framework */; };
 		174AC5F123914A3A0000C277 /* UIVVMaterialComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AC5F023914A3A0000C277 /* UIVVMaterialComponentTests.swift */; };
 		174AC5F323914A3A0000C277 /* UIVVMaterialComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 174AC5E523914A3A0000C277 /* UIVVMaterialComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1754FE0D24D55EC3007DDACE /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754FE0C24D55EC3007DDACE /* DoubleExtension.swift */; };
+		1754FE0F24D55FDA007DDACE /* TimesAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754FE0E24D55FDA007DDACE /* TimesAgo.swift */; };
 		17570918243C4FCE003D90F4 /* UIVVMaterialComponent.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 17570916243C4FCE003D90F4 /* UIVVMaterialComponent.podspec */; };
 		17570939243C5118003D90F4 /* UIVVMaterialSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757091D243C5118003D90F4 /* UIVVMaterialSpinner.swift */; };
 		1757093A243C5118003D90F4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757091F243C5118003D90F4 /* Model.swift */; };
@@ -55,6 +57,8 @@
 		174AC5EB23914A3A0000C277 /* UIVVMaterialComponentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIVVMaterialComponentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174AC5F023914A3A0000C277 /* UIVVMaterialComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVVMaterialComponentTests.swift; sourceTree = "<group>"; };
 		174AC5F223914A3A0000C277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1754FE0C24D55EC3007DDACE /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		1754FE0E24D55FDA007DDACE /* TimesAgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesAgo.swift; sourceTree = "<group>"; };
 		17570916243C4FCE003D90F4 /* UIVVMaterialComponent.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIVVMaterialComponent.podspec; sourceTree = "<group>"; };
 		1757091D243C5118003D90F4 /* UIVVMaterialSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVVMaterialSpinner.swift; sourceTree = "<group>"; };
 		1757091F243C5118003D90F4 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -211,6 +215,7 @@
 				17570934243C5118003D90F4 /* UINavigationBarExtension.swift */,
 				17570935243C5118003D90F4 /* Localizable.swift */,
 				17570936243C5118003D90F4 /* UINavigationController.swift */,
+				1754FE0C24D55EC3007DDACE /* DoubleExtension.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				17570938243C5118003D90F4 /* VVAppUitility.swift */,
+				1754FE0E24D55FDA007DDACE /* TimesAgo.swift */,
 			);
 			path = utility;
 			sourceTree = "<group>";
@@ -355,8 +361,10 @@
 				17570951243C5118003D90F4 /* VVAppUitility.swift in Sources */,
 				17570948243C5118003D90F4 /* UIDevice.swift in Sources */,
 				17570943243C5118003D90F4 /* UITextFieldExtension.swift in Sources */,
+				1754FE0D24D55EC3007DDACE /* DoubleExtension.swift in Sources */,
 				17570949243C5118003D90F4 /* UIDeviceExtension.swift in Sources */,
 				1757093E243C5118003D90F4 /* UIImageViewExtension.swift in Sources */,
+				1754FE0F24D55FDA007DDACE /* TimesAgo.swift in Sources */,
 				1757093C243C5118003D90F4 /* UIButtonExtension.swift in Sources */,
 				1757093B243C5118003D90F4 /* DeviceModel.swift in Sources */,
 				17570947243C5118003D90F4 /* ScrollView.swift in Sources */,
@@ -521,7 +529,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -535,7 +543,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.appinventor.UIVVMaterialComponent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -552,7 +560,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -566,7 +574,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.appinventor.UIVVMaterialComponent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
