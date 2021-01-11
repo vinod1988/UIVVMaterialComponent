@@ -190,6 +190,8 @@ public extension String {
         return htmlToAttributedString?.string ?? ""
     }
     
-    
+    var isInteger: Bool { return Int(self) != nil }
+    var isFloat: Bool { return Float(self) != nil }
+    var isDouble: Bool { return Double(self) != nil }
     
 }
