@@ -834,8 +834,8 @@ public class VVAppUtility {
             return UIColor.gray
         }
         
-        var rgbValue:UInt32 = 0
-        Scanner(string: cString).scanHexInt32(&rgbValue)
+        var rgbValue:UInt64 = 0
+        Scanner(string: cString).scanHexInt64(&rgbValue)
         
         return UIColor(
             red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
@@ -894,5 +894,30 @@ public class VVAppUtility {
         }
         
     }
+    
+    func getCurrentUTCDate() -> String {
+        
+        let date = Date()
+        
+        let iso8601DateFormatter = ISO8601DateFormatter()
+        iso8601DateFormatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        let utcStr = iso8601DateFormatter.string(from: date)
+        debugPrint(utcStr)
+        return utcStr
+    }
+    
+    class func convertDictionaryToData(json:NSDictionary) -> Data {
+        guard let data = try? NSKeyedArchiver.archivedData(withRootObject: json, requiringSecureCoding: false) else { return Data() }
+        return data
+    }
+    
+    
+    //https://stackoverflow.com/a/60475801
+   class func getStatusBarHeight() -> CGFloat {
+        let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+        let statusBarHeight = window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
+        return statusBarHeight
+    }
+    
     
 }
