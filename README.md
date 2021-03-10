@@ -38,7 +38,7 @@ Material Components for iOS Swift
 
 #### [CocoaPods](https://github.com/cocoapods/cocoapods)
 
-- Insert `pod 'UIVVMaterialComponent', '~> 1.2.0'` to your Podfile.
+- Insert `pod 'UIVVMaterialComponent', '~> 1.2.2'` to your Podfile.
 - Run `pod install`.
 
 Note: CocoaPods 1.4.0 is required to install UIVVMaterialComponent.

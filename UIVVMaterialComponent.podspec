@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIVVMaterialComponent"
-  s.version      = "1.2.0"
+  s.version      = "1.2.2"
   s.summary      = "Beautiful Material Component for iOS Swift."
   s.description  = "The SDK is a completely customizable widget that can be used in any iOS app."
 
@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
   #s.tvos.deployment_target = "9.0"
 
   #s.cocoapods_version = '>= 1.4.0'
-  s.swift_version = "4.2"
+  s.swift_version = "5.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

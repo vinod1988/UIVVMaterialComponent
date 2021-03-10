@@ -913,15 +913,10 @@ public class VVAppUtility {
     
     
     //https://stackoverflow.com/a/60475801
-   //@available(iOS 13.0, *)
-    class func getStatusBarHeight() -> CGFloat {
-//        if #available(iOS 13, *) {
-//            let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-//            let statusBarHeight = window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
-//            return statusBarHeight
-//        } else {
-            return 47
-//        }
+   class func getStatusBarHeight() -> CGFloat {
+        let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+        let statusBarHeight = window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
+        return statusBarHeight
     }
     
     
