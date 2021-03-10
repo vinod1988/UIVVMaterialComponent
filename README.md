@@ -31,14 +31,14 @@ Material Components for iOS Swift
 
 ## Requirements
 
-- Swift 4.2 or later
+- Swift 5.0 or later
 - iOS 13.0 or later
 
 ## Installation
 
 #### [CocoaPods](https://github.com/cocoapods/cocoapods)
 
-- Insert `pod 'UIVVMaterialComponent', '~> 0.5.1'` to your Podfile.
+- Insert `pod 'UIVVMaterialComponent', '~> 1.2.0'` to your Podfile.
 - Run `pod install`.
 
 Note: CocoaPods 1.4.0 is required to install UIVVMaterialComponent.

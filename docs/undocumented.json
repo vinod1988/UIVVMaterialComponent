@@ -1,6 +1,1895 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 11,
+      "symbol": "DeviceModel",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 14,
+      "symbol": "DeviceModel.simulator",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 17,
+      "symbol": "DeviceModel.iPod1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 18,
+      "symbol": "DeviceModel.iPod2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 19,
+      "symbol": "DeviceModel.iPod3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 20,
+      "symbol": "DeviceModel.iPod4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 21,
+      "symbol": "DeviceModel.iPod5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 24,
+      "symbol": "DeviceModel.iPad2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 25,
+      "symbol": "DeviceModel.iPad3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 26,
+      "symbol": "DeviceModel.iPad4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 27,
+      "symbol": "DeviceModel.iPadAir",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 28,
+      "symbol": "DeviceModel.iPadAir2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 29,
+      "symbol": "DeviceModel.iPadAir3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 30,
+      "symbol": "DeviceModel.iPad5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 31,
+      "symbol": "DeviceModel.iPad6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 34,
+      "symbol": "DeviceModel.iPadMini",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 35,
+      "symbol": "DeviceModel.iPadMini2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 36,
+      "symbol": "DeviceModel.iPadMini3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 37,
+      "symbol": "DeviceModel.iPadMini4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 38,
+      "symbol": "DeviceModel.iPadMini5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 41,
+      "symbol": "DeviceModel.iPadPro9_7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 42,
+      "symbol": "DeviceModel.iPadPro10_5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 43,
+      "symbol": "DeviceModel.iPadPro11",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 44,
+      "symbol": "DeviceModel.iPadPro12_9",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 45,
+      "symbol": "DeviceModel.iPadPro2_12_9",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 46,
+      "symbol": "DeviceModel.iPadPro3_12_9",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 49,
+      "symbol": "DeviceModel.iPhone4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 50,
+      "symbol": "DeviceModel.iPhone4S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 51,
+      "symbol": "DeviceModel.iPhone5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 52,
+      "symbol": "DeviceModel.iPhone5S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 53,
+      "symbol": "DeviceModel.iPhone5C",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 54,
+      "symbol": "DeviceModel.iPhone6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 55,
+      "symbol": "DeviceModel.iPhone6Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 56,
+      "symbol": "DeviceModel.iPhone6S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 57,
+      "symbol": "DeviceModel.iPhone6SPlus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 58,
+      "symbol": "DeviceModel.iPhoneSE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 59,
+      "symbol": "DeviceModel.iPhone7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 60,
+      "symbol": "DeviceModel.iPhone7Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 61,
+      "symbol": "DeviceModel.iPhone8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 62,
+      "symbol": "DeviceModel.iPhone8Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 63,
+      "symbol": "DeviceModel.iPhoneX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 64,
+      "symbol": "DeviceModel.iPhoneXS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 65,
+      "symbol": "DeviceModel.iPhoneXSMax",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 66,
+      "symbol": "DeviceModel.iPhoneXR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 67,
+      "symbol": "DeviceModel.iPhone11",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 68,
+      "symbol": "DeviceModel.iPhone11Pro",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 69,
+      "symbol": "DeviceModel.iPhone11ProMax",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 72,
+      "symbol": "DeviceModel.AppleTV",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 73,
+      "symbol": "DeviceModel.AppleTV_4K",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/enums/DeviceModel.swift",
+      "line": 74,
+      "symbol": "DeviceModel.unrecognized",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 13,
+      "symbol": "Localizable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 14,
+      "symbol": "Localizable.localized",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 18,
+      "symbol": "String.localized",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 24,
+      "symbol": "XIBLocalizable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 25,
+      "symbol": "XIBLocalizable.xibLocKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 29,
+      "symbol": "UILabel.xibLocKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 38,
+      "symbol": "UIButton.xibLocKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 47,
+      "symbol": "UINavigationItem.xibLocKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 56,
+      "symbol": "UIBarItem.xibLocKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 65,
+      "symbol": "XIBMultiLocalizable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 66,
+      "symbol": "XIBMultiLocalizable.xibLocKeys",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 70,
+      "symbol": "UISegmentedControl.xibLocKeys",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 82,
+      "symbol": "UITextFieldXIBLocalizable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 83,
+      "symbol": "UITextFieldXIBLocalizable.xibPlaceholderLocKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/Localizable.swift",
+      "line": 87,
+      "symbol": "UITextField.xibPlaceholderLocKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/NSStringExtension.swift",
+      "line": 14,
+      "symbol": "NSString.trim()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/NSStringExtension.swift",
+      "line": 19,
+      "symbol": "NSString.percentEncoding()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/ScrollView.swift",
+      "line": 14,
+      "symbol": "UIScrollView.scrollToTop()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/ScrollView.swift",
+      "line": 22,
+      "symbol": "UIScrollView.scrollToBottom(animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 18,
+      "symbol": "String.className(aClass:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 24,
+      "symbol": "String.length",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 28,
+      "symbol": "String.getPathExtension()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 33,
+      "symbol": "String.isPhoneNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 48,
+      "symbol": "String.isEqualToString(find:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 52,
+      "symbol": "String.index(at:from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 57,
+      "symbol": "String.character(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 64,
+      "symbol": "String.trim()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 71,
+      "symbol": "String.containsAlphabet(string:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 80,
+      "symbol": "String.containsNumber(string:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 86,
+      "symbol": "String.containsCharactersIn(matchCharacters:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 92,
+      "symbol": "String.containsOnlyCharactersIn(matchCharacters:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 98,
+      "symbol": "String.doesNotContainCharactersIn(matchCharacters:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 106,
+      "symbol": "String.isNumeric()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 139,
+      "symbol": "String.md5(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 145,
+      "symbol": "String.md5Base64(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 155,
+      "symbol": "String.sentanceWords()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 168,
+      "symbol": "String.isBlank",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 189,
+      "symbol": "String.htmlToString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 193,
+      "symbol": "String.isInteger",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 194,
+      "symbol": "String.isFloat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/StringExtension.swift",
+      "line": 195,
+      "symbol": "String.isDouble",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/TextView.swift",
+      "line": 13,
+      "symbol": "UITextView.setBottomBorder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/TextView.swift",
+      "line": 22,
+      "symbol": "UITextView.addBottomBorder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIApplication.swift",
+      "line": 14,
+      "symbol": "UIApplication.loginAnimation",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIApplication.swift",
+      "line": 15,
+      "symbol": "UIApplication.logoutAnimation",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIApplication.swift",
+      "line": 18,
+      "symbol": "UIApplication.setRootView(_:options:animated:duration:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIButtonExtension.swift",
+      "line": 33,
+      "symbol": "UIButton.alignImageLeft()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIButtonExtension.swift",
+      "line": 52,
+      "symbol": "UIButton.underline()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIButtonExtension.swift",
+      "line": 67,
+      "symbol": "CGRect.init(_:_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIButtonExtension.swift",
+      "line": 73,
+      "symbol": "CGSize.init(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIButtonExtension.swift",
+      "line": 78,
+      "symbol": "CGPoint.init(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 16,
+      "symbol": "UIColor.init(hex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 20,
+      "symbol": "UIColor.init(hex:alpha:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 45,
+      "symbol": "UIColor.colorWithHex(rgbValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 52,
+      "symbol": "UIColor.hexCode(hex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 74,
+      "symbol": "UIColor.colorWithHexString(hexStr:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 91,
+      "symbol": "UIColor.colorWithHexAlpha(rgbValue:alpha:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 98,
+      "symbol": "UIColor.colorHexString(hexStr:alpha:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 114,
+      "symbol": "UIColor.randomColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 118,
+      "symbol": "UIColor.changeImageColor(theImageView:newColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 127,
+      "symbol": "String.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 133,
+      "symbol": "String.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIColor.swift",
+      "line": 142,
+      "symbol": "CGFloat.random",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 32,
+      "symbol": "UIDevice.DeviceType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 33,
+      "symbol": "UIDevice.DeviceType.iPad",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 34,
+      "symbol": "UIDevice.DeviceType.iPhone_unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 35,
+      "symbol": "UIDevice.DeviceType.iPhone_5_5S_5C",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 36,
+      "symbol": "UIDevice.DeviceType.iPhone_6_6S_7_8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 37,
+      "symbol": "UIDevice.DeviceType.iPhone_6_6S_7_8_PLUS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 38,
+      "symbol": "UIDevice.DeviceType.iPhone_X_Xs",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 39,
+      "symbol": "UIDevice.DeviceType.iPhone_Xs_11_Pro_Max",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 40,
+      "symbol": "UIDevice.DeviceType.iPhone_Xr_11",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 41,
+      "symbol": "UIDevice.DeviceType.iPhone_11_Pro",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 45,
+      "symbol": "UIDevice.hasHomeButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 54,
+      "symbol": "UIDevice.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 86,
+      "symbol": "UIDevice.ipAddress()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDevice.swift",
+      "line": 134,
+      "symbol": "UIDevice.getDeviceType()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIDeviceExtension.swift",
+      "line": 18,
+      "symbol": "UIDevice.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIImage.swift",
+      "line": 13,
+      "symbol": "UIImage.trim(trimRect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIImage.swift",
+      "line": 30,
+      "symbol": "UIImage.localImage(_:template:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIImage.swift",
+      "line": 38,
+      "symbol": "UIImage.tinted(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIImageViewExtension.swift",
+      "line": 14,
+      "symbol": "UIImageView.circulorImageView(imageView:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIImageViewExtension.swift",
+      "line": 23,
+      "symbol": "UIImageView.setRandomDownloadImage(_:height:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIImageViewExtension.swift",
+      "line": 58,
+      "symbol": "UIImageView.clipParallaxEffect(_:screenSize:displayHeight:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIImageViewExtension.swift",
+      "line": 80,
+      "symbol": "UIImageView.imageFromUrl(urlString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIImageViewExtension.swift",
+      "line": 96,
+      "symbol": "UIImageView.imageColor(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UILabelExtension.swift",
+      "line": 13,
+      "symbol": "UILabel.paddingLabel(rect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UILabelExtension.swift",
+      "line": 21,
+      "symbol": "UILabel.setLineSpacing(lineSpacing:lineHeightMultiple:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UILabelExtension.swift",
+      "line": 43,
+      "symbol": "UILabel.justifyText(text:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UILabelExtension.swift",
+      "line": 57,
+      "symbol": "UILabel.setLeftImgWithText(image:width:height:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UILabelExtension.swift",
+      "line": 73,
+      "symbol": "UILabel.setRightImgWithText(image:width:height:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UILabelExtension.swift",
+      "line": 89,
+      "symbol": "UILabel.calculateMaxLines()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UINavigationBarExtension.swift",
+      "line": 14,
+      "symbol": "UINavigationBar.hideNavigationLine()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UINavigationBarExtension.swift",
+      "line": 25,
+      "symbol": "UINavigationBar.shouldRemoveShadow(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UINavigationBarExtension.swift",
+      "line": 33,
+      "symbol": "UINavigationBar.navigationColor(navController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UINavigationBarExtension.swift",
+      "line": 41,
+      "symbol": "UINavigationBar.hideBottomHairline()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UINavigationBarExtension.swift",
+      "line": 46,
+      "symbol": "UINavigationBar.showBottomHairline()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UINavigationBarExtension.swift",
+      "line": 72,
+      "symbol": "UINavigationItem.setTitle(_:subtitle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UINavigationController.swift",
+      "line": 42,
+      "symbol": "UINavigationController.backToViewController(viewController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UINavigationController.swift",
+      "line": 52,
+      "symbol": "UINavigationController.removeBorderAndShadow(status:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UINavigationController.swift",
+      "line": 65,
+      "symbol": "UINavigationController.makeTransparentNav()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift",
+      "line": 13,
+      "symbol": "UITableView.registerCellClass(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift",
+      "line": 18,
+      "symbol": "UITableView.registerCellNib(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift",
+      "line": 24,
+      "symbol": "UITableView.registerHeaderFooterViewClass(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift",
+      "line": 29,
+      "symbol": "UITableView.registerHeaderFooterViewNib(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift",
+      "line": 35,
+      "symbol": "UITableView.setEmptyMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift",
+      "line": 48,
+      "symbol": "UITableView.setEmptyMessageWithConfig(message:textColor:fontSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift",
+      "line": 75,
+      "symbol": "UITableView.restore()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift",
+      "line": 81,
+      "symbol": "UITableView.scrollToBottomRow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITableViewExtension.swift",
+      "line": 112,
+      "symbol": "UITableView.indexPathIsValid(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITextFieldExtension.swift",
+      "line": 13,
+      "symbol": "UITextField.setLeftPaddingPoints(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITextFieldExtension.swift",
+      "line": 18,
+      "symbol": "UITextField.setRightPaddingPoints(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITextFieldExtension.swift",
+      "line": 25,
+      "symbol": "UITextField.doneAccessory",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITextFieldExtension.swift",
+      "line": 36,
+      "symbol": "UITextField.addDoneButtonOnKeyboard()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITextFieldExtension.swift",
+      "line": 51,
+      "symbol": "UITextField.doneButtonAction()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UITextFieldExtension.swift",
+      "line": 55,
+      "symbol": "UITextField.setBottomBorder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 12,
+      "symbol": "UINib.instantiate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 20,
+      "symbol": "UIView.loadNib(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 25,
+      "symbol": "UIView.loadNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 30,
+      "symbol": "UIView.dropShadow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 41,
+      "symbol": "UIView.nib",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 45,
+      "symbol": "UIView.instantiate(autolayout:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 55,
+      "symbol": "UIView.fixInView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 65,
+      "symbol": "UIView.roundCorners(_:radius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 73,
+      "symbol": "UIView.isVisiblity(gone:dimension:attribute:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 82,
+      "symbol": "UIView.Visibility",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 83,
+      "symbol": "UIView.Visibility.visible",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 84,
+      "symbol": "UIView.Visibility.invisible",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 85,
+      "symbol": "UIView.Visibility.gone",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIView.swift",
+      "line": 88,
+      "symbol": "UIView.visibility",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewBorder.swift",
+      "line": 14,
+      "symbol": "UIView.cornerRadius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewBorder.swift",
+      "line": 27,
+      "symbol": "UIView.borderWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewBorder.swift",
+      "line": 39,
+      "symbol": "UIView.borderColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 26,
+      "symbol": "UIViewController.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 31,
+      "symbol": "UIViewController.dismissKeyboard()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 43,
+      "symbol": "UIViewController.keyboardWillShow(notification:active_view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 62,
+      "symbol": "UIViewController.keyboardWillHide(notification:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 70,
+      "symbol": "UIViewController.screenWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 75,
+      "symbol": "UIViewController.screenHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 81,
+      "symbol": "UIViewController.generateQR(_:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 107,
+      "symbol": "UIViewController.validateEmail(email:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 113,
+      "symbol": "UIViewController.validateForm(text_fields:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 142,
+      "symbol": "UIViewController.convert(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 150,
+      "symbol": "UIViewController.timestampToDate(timestamp:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/extensions/UIViewControllerExtension.swift",
+      "line": 163,
+      "symbol": "UIViewController.addActionSheetForiPad(actionSheet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 11,
+      "symbol": "UIVVMaterialSpinner",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 13,
+      "symbol": "UIVVMaterialSpinner.circleLayer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 14,
+      "symbol": "UIVVMaterialSpinner.isAnimating",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 15,
+      "symbol": "UIVVMaterialSpinner.animationDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 17,
+      "symbol": "UIVVMaterialSpinner.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 22,
+      "symbol": "UIVVMaterialSpinner.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 27,
+      "symbol": "UIVVMaterialSpinner.commonInit()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 44,
+      "symbol": "UIVVMaterialSpinner.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 52,
+      "symbol": "UIVVMaterialSpinner.updateCircleLayer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 69,
+      "symbol": "UIVVMaterialSpinner.forceBeginRefreshing()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 74,
+      "symbol": "UIVVMaterialSpinner.beginRefreshing()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/ui/spinner/UIVVMaterialSpinner.swift",
+      "line": 128,
+      "symbol": "UIVVMaterialSpinner.endRefreshing()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/TimesAgo.swift",
+      "line": 11,
+      "symbol": "timeAgoSince(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 14,
+      "symbol": "VVAppUtility",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 16,
+      "symbol": "VVAppUtility.active_view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 18,
+      "symbol": "VVAppUtility.instance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 20,
+      "symbol": "VVAppUtility.isEmail(email:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 28,
+      "symbol": "VVAppUtility.getAppName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 32,
+      "symbol": "VVAppUtility.getAppVersion()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 36,
+      "symbol": "VVAppUtility.getBundleId()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 43,
+      "symbol": "VVAppUtility.clearCache()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 49,
+      "symbol": "VVAppUtility.clearCookies()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 62,
+      "symbol": "VVAppUtility.getDeviceModel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 66,
+      "symbol": "VVAppUtility.getDeviceName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 70,
+      "symbol": "VVAppUtility.getDeviceVer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 74,
+      "symbol": "VVAppUtility.getDeviceUUID()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 78,
+      "symbol": "VVAppUtility.getDeviceLanguage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 82,
+      "symbol": "VVAppUtility.getDeviceOSName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 86,
+      "symbol": "VVAppUtility.getDeviceOSRelease()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 90,
+      "symbol": "VVAppUtility.getDeviceBrand()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 94,
+      "symbol": "VVAppUtility.getDeviceManufacturer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 100,
+      "symbol": "VVAppUtility.getCountryList()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 112,
+      "symbol": "VVAppUtility.getCountryArray()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 130,
+      "symbol": "VVAppUtility.getCountryCodeList()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 143,
+      "symbol": "VVAppUtility.getCountryCallingCode()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 171,
+      "symbol": "VVAppUtility.getCountryCode()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 179,
+      "symbol": "VVAppUtility.getUserCountryCode(code:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 190,
+      "symbol": "VVAppUtility.hasLocationPermission()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 207,
+      "symbol": "VVAppUtility.getServerDateFromString(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 215,
+      "symbol": "VVAppUtility.getServerDate(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 222,
+      "symbol": "VVAppUtility.getUserDate(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 229,
+      "symbol": "VVAppUtility.getStringDDMMYYYY(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 244,
+      "symbol": "VVAppUtility.getFullDate(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 260,
+      "symbol": "VVAppUtility.parseStringDate(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 278,
+      "symbol": "VVAppUtility.getAddressFromLatLon(lat:lang:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 334,
+      "symbol": "VVAppUtility.getCurrentLocation(latitude:lang:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 401,
+      "symbol": "VVAppUtility.MKMapRectForCoordinateRegion(region:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 413,
+      "symbol": "VVAppUtility.getTimeStamp()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 419,
+      "symbol": "VVAppUtility.getDateFromUTC(utcDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 428,
+      "symbol": "VVAppUtility.getDictionary(stringRes:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 442,
+      "symbol": "VVAppUtility.stringify(json:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 480,
+      "symbol": "VVAppUtility.saveToFile(_:img:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 487,
+      "symbol": "VVAppUtility.getDocumentDirPath()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 493,
+      "symbol": "VVAppUtility.delete(fileName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 507,
+      "symbol": "VVAppUtility.deleteFromDocumentDir(filePath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 521,
+      "symbol": "VVAppUtility.convertDateToInt(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 526,
+      "symbol": "VVAppUtility.convertTimeIntervalToDate(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 534,
+      "symbol": "VVAppUtility.getCurrentDate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 542,
+      "symbol": "VVAppUtility.getCurrentDateObj()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 554,
+      "symbol": "VVAppUtility.jsonString(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 566,
+      "symbol": "VVAppUtility.jsonArray(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 595,
+      "symbol": "VVAppUtility.jsonObject(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 618,
+      "symbol": "VVAppUtility.getDateObjFromUTC(utcDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 645,
+      "symbol": "VVAppUtility.getDateFromUTC(utcDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 675,
+      "symbol": "VVAppUtility.getTimeFromUTC(utcTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 739,
+      "symbol": "VVAppUtility.convertDictToData(json:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 749,
+      "symbol": "VVAppUtility.extractUserInfo(userInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 760,
+      "symbol": "VVAppUtility.getExpiredDays(dateStr:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 805,
+      "symbol": "VVAppUtility.getTodayDate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 813,
+      "symbol": "VVAppUtility.randomColor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 826,
+      "symbol": "VVAppUtility.hexToColor(hex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 849,
+      "symbol": "VVAppUtility.getMaterialColor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 898,
+      "symbol": "VVAppUtility.getCurrentUTCDate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 909,
+      "symbol": "VVAppUtility.convertDictionaryToData(json:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent/Classes/utility/VVAppUitility.swift",
+      "line": 916,
+      "symbol": "VVAppUtility.getStatusBarHeight()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/vinod/workspace/ui_lib/UIVVMaterialComponent"
 }
