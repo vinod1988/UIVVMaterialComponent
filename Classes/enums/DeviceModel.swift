@@ -67,7 +67,12 @@ public enum DeviceModel : String {
     iPhone11           = "iPhone 11",
     iPhone11Pro        = "iPhone 11 Pro",
     iPhone11ProMax     = "iPhone 11 Pro Max",
-    
+    iPhone12Mini       = "iPhone 12 Mini",
+    iPhone12           = "iPhone 12",
+    iPhone12Pro        = "iPhone 12 Pro",
+    iPhone12ProMax     = "iPhone 12 Pro Max",
+
+
     //Apple TV
     AppleTV            = "Apple TV",
     AppleTV_4K         = "Apple TV 4K",
