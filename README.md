@@ -91,6 +91,13 @@ Material Components for iOS Swift
 
 ```
 
+## Storyboard id use case
+```
+let loginVC = AppStoryboard.PreLogin
+                 .viewController(vcClass: LoginVC.self)
+
+```
+
 ## Requirements
 
 - Swift 5.0 or later

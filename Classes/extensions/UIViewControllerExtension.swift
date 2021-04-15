@@ -168,4 +168,11 @@ public extension UIViewController {
       }
     }
     
+    //MARK:- To get the storyboard id based on class name as storyboard id
+    class var storyboardID : String {
+      return "\(self)"
+    }
+    
+    
+    
 }
