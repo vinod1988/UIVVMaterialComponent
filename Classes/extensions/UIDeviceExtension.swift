@@ -130,6 +130,17 @@ public extension UIDevice {
             "iPhone12,3" : .iPhone11Pro,
             "iPhone12,5" : .iPhone11ProMax,
             
+            "iPhone12,8" : .iPhoneSE2,
+            "iPhone13,1" : .iPhone12Mini,
+            "iPhone13,2" : .iPhone12,
+            "iPhone13,3" : .iPhone12Pro,
+            "iPhone13,4" : .iPhone12ProMax,
+
+            "iPhone14,4" : .iPhone13Mini,
+            "iPhone14,5" : .iPhone13,
+            "iPhone14,2" : .iPhone13Pro,
+            "iPhone14,3" : .iPhone13ProMax,
+
             //Apple TV
             "AppleTV5,3" : .AppleTV,
             "AppleTV6,2" : .AppleTV_4K
